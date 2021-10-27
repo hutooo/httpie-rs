@@ -185,11 +185,6 @@ async fn main() -> Result<()> {
     Ok(result)
 }
 
-// cargo clean
-// cargo build [--quiet]
-// cargo run post https://httpbin.org/post greeting=hola name=ash
-// ./target/debug/httpie post https://httpbin.org/post greeting=hola name=ash
-
 // 仅在 cargo test 时编译
 #[cfg(test)]
 mod tests {
